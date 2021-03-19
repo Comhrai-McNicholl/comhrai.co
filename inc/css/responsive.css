@@ -1,0 +1,142 @@
+@media only screen and (max-width: 600px) {
+
+/* HERO */
+.hero {
+    margin-top: 200px;
+    margin-bottom: 400px;
+}
+.hero-logo {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    height: 200px;
+    position: relative;
+    width: 800px auto;   
+}
+
+.title {
+    text-align: center;
+    font-weight: 400;
+    font-size: 39px;
+    letter-spacing: 10px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+.title:after {
+    margin: 0 auto;
+    margin-top: 8px;
+    content: "";
+    border-bottom: 4px solid #707070;
+    width: 13%;
+    display: block;
+}
+.ar {
+    margin-top: 300px;
+}
+.arrow {
+    display: none;
+  }
+a{
+    text-decoration: none;
+    color:#707070;
+}
+
+/* NAVIAGTION */
+.toggle {
+    display: block;
+}
+ul {
+    width: 100%;
+    display: none;
+}
+ul li {
+    display: block;
+    text-align: center;
+}
+.acitve {
+    display: block;
+}
+
+/* notice */
+.notice {
+display: none;
+}
+/* ABOUTME */
+.about {
+    margin: 0 auto;
+    text-align: center;
+}
+.title2 {
+    font-weight: 400;
+    font-size: 29px;
+    letter-spacing: 8px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+.title2:after {
+    margin: 0 auto;
+    margin-top: 8px;
+    content: "";
+    border-bottom: 2px solid #707070;
+    width: 20%;
+    display: block;
+}
+
+/* SERVICES */
+.services {
+    text-align: center;
+    left: auto;
+    width: 70%;
+    bottom: auto;
+    margin: 0 auto;
+    margin-bottom: 200px;
+}
+
+
+/* PROJECTS */
+.projects {
+    margin: 0;
+    text-align: center;
+    margin-bottom: 200px;
+}
+.project {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    left: 0;
+    position: relative;
+    right: 0;
+    display: inline-block;
+}
+
+
+/* CONTACT ME */
+.contact {
+    margin: 0;
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+/* FOOTER */
+footer {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: relative;
+    margin: 0;
+    width: 100%;
+    padding: 0;
+}
+.contents {
+    color: #161616;
+    background: #707070;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.copyrights {
+    text-align: center;
+}
+
+
+}

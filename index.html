@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="./inc/css/app.css" type="text/css" rel="stylesheet"/>
+    <link href="./inc/css/hover-min.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="./inc/css/responsive.css" rel="stylesheet" type="text/css">
+    <script src="inc/js/app.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title> Comhrai McNicholl </title>
+    <meta name="og:title" content="Comhrai McNicholl - Home"/>
+    <meta name="og:type" content="movie"/>
+    <meta name="og:url" content="http://www.comhrai.co/"/>
+    <link rel="shortcut icon" type="image/ico" href="https://comhrai.co/inc/img/logo.png" />
+    <meta name="og:image" content="https://comhrai.co/inc/img/logo.png"/>
+    <meta name="og:description" content="Hi there, I'm Comhrai - I am a freelance System Administrator student!"/>
+</head>
+<body>
+    <nav> 
+    <div class="toggle">
+        <i class="fa fa-bars menu" aria-hidden="true">`</i>
+    </div>
+    <ul>
+        <li><a data-scroll class="hvr-underline-from-center" href="#">Home</a></li>
+        <li><a data-scroll class="hvr-underline-from-center" href="#about">About</a></li>
+        <li><a data-scroll class="hvr-underline-from-center" href="#services">Services</a></li>
+        <li><a data-scroll class="hvr-underline-from-center" href="#projects">Projects</a></li>
+        <li><a data-scroll class="hvr-underline-from-center" href="#contact">Contact</a></li>
+    </ul>
+    </nav>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.menu').click(function() {
+                $('ul').toggleClass('active');
+            })
+        })
+    </script>
+
+    <div class="hero">
+        <!-- <img src="./inc/img/logo.png" alt="comhrai_logo_hero" class="hero-logo"> -->
+        <h1 data-aos="zoom-in" class="title">
+            comhrai mcnicholl
+        </h1>
+
+        
+        <div data-aos="fade-up" class="notice">
+            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+            <strong><span id='notice'>NOTICE:</span></strong><br>
+            I am temporarily not offering any of my services that are listed on-site, please check my social media for more information on when i will be re-offering!
+        </div>
+        
+        <div class="ar">
+            <a data-scroll href="#about">
+                <div class="arrow"></div>
+              </a>
+        </div>
+    </div>
+    
+
+    <div id="about" class="about">
+        <h1 class="title2">
+            about me
+        </h1>
+        <p class="abouts">
+            Hi there, I'm Comhrai.<br>
+            I'm a 17 year old System Administrator Student, I am currently studying Computer Engineering and many other different skills that I may be able to offer in the foreseeable future. I currently reside in Northern Ireland and spend a lot of my free time learning many other skills such as how to program in Java.
+            <br>
+            <br>
+            I have decided to offer some of my skills as a freelancer to further allow me to gain some experience with working in System Administration and many other different abilities. I do hold some qualifications within the field currently, and am in the process of obtaining more as I go along you can view my qualifications here.
+        </p>
+    </div>
+
+    <div class="services">
+        <h1 class="title2">
+            My Services
+        </h1>
+        <div class="service">
+            <p> (!) I am working on listing out all my services that I am able to provide! (!)</p>
+        </div>
+    </div>
+
+    <div class="projects">
+        <h1 class="title2">
+            My Projects
+        </h1>
+        <div class="project">
+            <img src="./inc/img/image0.jpg" alt="PROJECT" class="project-img">
+        </div>
+        <div class="project">
+            <img src="./inc/img/image0.jpg" alt="PROJECT" class="project-img">
+        </div>
+        <div class="project">
+            <img src="./inc/img/image0.jpg" alt="PROJECT" class="project-img">
+        </div>
+        <div class="project">
+            <img src="./inc/img/image0.jpg" alt="PROJECT" class="project-img">
+        </div>
+        <div class="project">
+            <img src="./inc/img/image0.jpg" alt="PROJECT" class="project-img">
+        </div>
+        <div class="project">
+            <img src="./inc/img/image0.jpg" alt="PROJECT" class="project-img">
+        </div>
+    </div>
+
+    <div class="contact">
+        <h1 class="title2">
+            Contact me
+        </h1>
+        <p class="contacts">
+            <strong>E-Mail:</strong> hello@comhrai.co<br>
+            <strong>Discord:</strong> xResisted#1120
+        </p>
+    </div>
+
+    <footer>
+        <div class="copyrights">
+            <p class="copyright">Copyright &copy; 2021 - Comhrai.co<br>All rights reserved</p>
+        </div>
+    </footer>
+
+    <script>
+        AOS.init();
+        smoothScroll.init();
+      </script>
+</body>
+</html>
